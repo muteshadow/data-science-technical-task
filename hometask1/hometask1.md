@@ -1,4 +1,4 @@
-<p style="text-align: center"><img src="../assets/img/amazinum.png" width="180"></p>
+<p align="center"><img src="../assets/img/amazinum.png" width="180"></p>
 
 # Hometask: pandas
 
