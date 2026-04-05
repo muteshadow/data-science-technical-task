@@ -464,7 +464,7 @@ lin_reg.draw_cost_changes()
     R2 Score: 0.4707353464072034
     
 
-<p align="center">![png](hometask2_files/hometask2_26_1.png)</p>
+<p align="center"><img src="hometask2_files/hometask2_26_1.png"></p>
     
 
 ### Multivariable Regression and Comparative Analysis
@@ -503,7 +503,7 @@ lin_reg.draw_cost_changes()
     Новий R2 Test Score = 0.6094269556521104
     
 
-<p align="center">![png](hometask2_files/hometask2_28_1.png)</p>
+<p align="center"><img src="hometask2_files/hometask2_28_1.png"></p>
 
 
 ### Comparison of the developed model with the implementation from Sklearn
