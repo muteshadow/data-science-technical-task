@@ -1,6 +1,8 @@
-## Hometask: pandas
+<p style="text-align: center"><img src="../assets/img/amazinum.png" width="180"></p>
 
-### Question 1
+# Hometask: pandas
+
+## Question 1
 
 
 ```python
@@ -50,22 +52,6 @@ energy.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -114,9 +100,6 @@ energy.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 
 ```python
@@ -134,22 +117,6 @@ GPD.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -301,9 +268,6 @@ GPD.head()
   </tbody>
 </table>
 <p>5 rows × 67 columns</p>
-</div>
-
-
 
 
 ```python
@@ -313,22 +277,6 @@ ScimEn.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -407,9 +355,6 @@ ScimEn.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 
 ```python
@@ -436,22 +381,6 @@ df
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -849,11 +778,9 @@ df
     </tr>
   </tbody>
 </table>
-</div>
 
 
-
-#### Function "answer_one" return the resulted DataFrame
+### Function "answer_one" return the resulted DataFrame
 
 
 ```python
@@ -864,22 +791,6 @@ answer_one()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1277,13 +1188,11 @@ answer_one()
     </tr>
   </tbody>
 </table>
-</div>
 
 
+## Question 2
 
-### Question 2
-
-#### Function "avgGPD" return 15 countries and their average GDP sorted DESC
+### Function "avgGPD" return 15 countries and their average GDP sorted DESC
 
 
 ```python
@@ -1299,8 +1208,6 @@ def answer_two():
 
 answer_two()
 ```
-
-
 
 
     Country
@@ -1322,10 +1229,9 @@ answer_two()
     dtype: float64
 
 
+## Question 3
 
-### Question 3
-
-#### Function return how much had the GDP changed
+### Function return how much had the GDP changed
 
 
 ```python
@@ -1347,10 +1253,7 @@ answer_three()
 ```
 
 
-
-
     np.float64(118652421857.7959)
-
 
 
 **manual result check**
@@ -1362,17 +1265,14 @@ Top15.loc['France', ['2006', '2015']]
 ```
 
 
-
-
     2006    2.320536e+12
     2015    2.439189e+12
     Name: France, dtype: float64
 
 
+## Question 4
 
-### Question 4
-
-#### Function return Self-Citations to Total Citations
+### Function return Self-Citations to Total Citations
 
 
 ```python
@@ -1390,15 +1290,12 @@ answer_four()
 ```
 
 
-
-
     ('China', np.float64(0.6912289816173135))
 
 
+## Question 5
 
-### Question 5
-
-#### Function return the third most populous country
+### Function return the third most populous country
 
 
 ```python
@@ -1415,15 +1312,12 @@ answer_five()
 ```
 
 
-
-
     'United States'
 
 
+## Question 6
 
-### Question 6
-
-#### Function return correlation
+### Function return correlation
 
 
 ```python
@@ -1441,15 +1335,12 @@ answer_six()
 ```
 
 
-
-
     np.float64(0.7434709127726777)
 
 
+## Question 7
 
-### Question 7
-
-#### Function return group the Countries by Continent
+### Function return group the Countries by Continent
 
 
 ```python
@@ -1485,22 +1376,6 @@ answer_seven()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1556,6 +1431,3 @@ answer_seven()
     </tr>
   </tbody>
 </table>
-</div>
-
-
