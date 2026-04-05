@@ -1,31 +1,3 @@
-```python
-from IPython.display import HTML
-display(HTML('<style>' + open('../assets/custom_styles.css').read() + '</style>'))
-```
-
-
-<style>.jp-Notebook .jp-CodeCell:first-of-type {
-    display: none !important;
-}
-
-.jp-MarkdownCell, .jp-CodeCell {
-    margin-top: 15px !important;
-    margin-bottom: 15px !important;
-}
-
-.jp-RenderedMarkdown p {
-    line-height: 1.7;
-    font-size: 1.05em;
-}
-
-
-blockquote {
-    border-left: 5px solid #4a90e2;
-    padding-left: 15px;
-    color: #555;
-}</style>
-
-
 <p style="text-align: center"><img src="../assets/img/amazinum.png" width="180"></p>
 
 # Hometask: Linear Regression one variable
@@ -91,23 +63,6 @@ df.describe ()
     9  3.6912   2.611
     
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -159,8 +114,6 @@ df.describe ()
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 ## Short Description of the Work: California Housing Price Analysis
@@ -511,11 +464,8 @@ lin_reg.draw_cost_changes()
     R2 Score: 0.4707353464072034
     
 
-
-    
 ![png](hometask2_files/hometask2_26_1.png)
     
-
 
 ### Multivariable Regression and Comparative Analysis
 
@@ -553,10 +503,7 @@ lin_reg.draw_cost_changes()
     Новий R2 Test Score = 0.6094269556521104
     
 
-
-    
 ![png](hometask2_files/hometask2_28_1.png)
-    
 
 
 ### Comparison of the developed model with the implementation from Sklearn
