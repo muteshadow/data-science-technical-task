@@ -1,4 +1,4 @@
-<p style="text-align: center"><img src="../assets/img/amazinum.png" width="180"></p>
+<p align="center"><img src="../assets/img/amazinum.png" width="180"></p>
 
 # Hometask: Linear Regression one variable
 
@@ -201,7 +201,7 @@ print(result)
 
 I also implemented the **loss function**, which measures how much the model is making error. For this, the **Mean Squared Error (MSE)** is used.
 
-<p style="text-align: center"><img src="https://towardsdatascience.com/wp-content/uploads/2020/08/1mjalW4XlIsHdE5gZcz2VWQ.png" width="180"></p>
+<p align="center"><img src="https://towardsdatascience.com/wp-content/uploads/2020/08/1mjalW4XlIsHdE5gZcz2VWQ.png" width="180"></p>
 
 
 ```python
@@ -464,7 +464,7 @@ lin_reg.draw_cost_changes()
     R2 Score: 0.4707353464072034
     
 
-![png](hometask2_files/hometask2_26_1.png)
+<p align="center">![png](hometask2_files/hometask2_26_1.png)</p>
     
 
 ### Multivariable Regression and Comparative Analysis
@@ -503,7 +503,7 @@ lin_reg.draw_cost_changes()
     Новий R2 Test Score = 0.6094269556521104
     
 
-![png](hometask2_files/hometask2_28_1.png)
+<p align="center">![png](hometask2_files/hometask2_28_1.png)</p>
 
 
 ### Comparison of the developed model with the implementation from Sklearn
